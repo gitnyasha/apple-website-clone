@@ -19,6 +19,6 @@ It displays background and gradient skills
 
 ## Live Demo
 
-[Live Demo](https://gitnyasha.github.io/apple-website-clone/)
+[Live Demo](https://gitnyasha.github.io/apple-website-clone/index.html)
 
 ## Getting Started
