@@ -19,7 +19,7 @@ nav {
   top: 80px;
   right: 15%;
   position: absolute;
-  background:linear-gradient(to bottom, #585858 50%, #787878 50%)
+  background: linear-gradient(to bottom, #585858 50%, #787878 50%);
 }
 
 .global-nav {
@@ -69,7 +69,7 @@ input[type=search] {
   display: inline-block;
   box-sizing: border-box;
   border-radius: 20px;
-  background:linear-gradient(to bottom, #585858 50%, #787878 50%)
+  background: linear-gradient(to bottom, #585858 50%, #787878 50%);
 }
 
 .centered {
@@ -115,7 +115,6 @@ footer {
   margin: 0;
   min-width: 980px;
   width: 100%;
-
   padding: 0;
   color: #6e6e6e;
   font-size: .8334em;
@@ -123,11 +122,11 @@ footer {
 }
 
 footer .left {
-    float: left;
-    clear: both;
-    width: 49%;
-    height:70px;
-    align-items: flex-end;
+  float: left;
+  clear: both;
+  width: 49%;
+  height: 70px;
+  align-items: flex-end;
 }
 
 .left p {
@@ -135,23 +134,23 @@ footer .left {
 }
 
 footer p, footer ul, footer ul li {
-    display: inline-flex;
-    margin: 0;
+  display: inline-flex;
+  margin: 0;
 }
 
 footer .right {
   float: left;
-    width: 50%;
-    height: 70px;
-    text-align: left;
+  width: 50%;
+  height: 70px;
+  text-align: left;
 }
 
 footer a:link, a:visited, a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer a {
-    color: #08c;
+  color: #08c;
 }
 
 footer ul li {
