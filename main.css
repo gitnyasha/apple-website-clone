@@ -46,6 +46,17 @@ nav {
   padding: 8px;
 }
 
+.fab {
+  font-size: 20px;
+}
+
+.fas {
+  position: absolute;
+  top: 30%;
+  right: 17%;
+  color: #fff;
+}
+
 .global-search {
   width: 17%;
   float: left;
@@ -56,19 +67,36 @@ input[type=search] {
   padding: 1px 20px;
   margin: 8px auto 8px 15px;
   display: inline-block;
-  border: 1px solid #ccc;
   box-sizing: border-box;
   border-radius: 20px;
+  background:linear-gradient(to bottom, #585858 50%, #787878 50%)
 }
 
 .centered {
   width: 80%;
-  height: 200px;
+  height: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
   border-radius: 5%;
   transform: translateX(-50%) translateY(-50%);
+  font-size: 22px;
+  text-align: center;
+}
+
+.centered img {
+  width: 100%;
+  height: 92px;
+  margin: 10px auto;
+}
+
+.centered .text-centered {
+  text-decoration: none;
+  color: #fff;
+}
+
+.centered .text-centered:hover {
+  border-bottom: solid thin;
 }
 
 .products {
@@ -81,4 +109,56 @@ input[type=search] {
   width: 25%;
   float: left;
   object-fit: scale-down;
+}
+
+footer {
+  margin: 0;
+  min-width: 980px;
+  width: 100%;
+
+  padding: 0;
+  color: #6e6e6e;
+  font-size: .8334em;
+  line-height: 1.2;
+}
+
+footer .left {
+    float: left;
+    clear: both;
+    width: 49%;
+    height:70px;
+    align-items: flex-end;
+}
+
+.left p {
+  padding-left: 180px;
+}
+
+footer p, footer ul, footer ul li {
+    display: inline-flex;
+    margin: 0;
+}
+
+footer .right {
+  float: left;
+    width: 50%;
+    height: 70px;
+    text-align: left;
+}
+
+footer a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+footer a {
+    color: #08c;
+}
+
+footer ul li {
+  padding: 0 5px;
+  border-right: solid thin lightgrey;
+}
+
+footer .worldwide {
+  border-right: none;
 }
