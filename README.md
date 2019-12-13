@@ -2,7 +2,7 @@
 
 A background and gradient HTML5 AND CSS3 page.
 
-![screenshot]()
+![Screenshot from 2019-12-13 18-09-11](https://user-images.githubusercontent.com/45620987/70814246-c219d800-1dd3-11ea-8304-32e1e003afe7.png)
 
 # What it does
 
