@@ -6,7 +6,7 @@ A background and gradient HTML5 AND CSS3 page.
 
 # What it does
 
-It displays background and gradient skills.
+It displays background and gradient skills
 
 ## Built With
 
