@@ -127,7 +127,7 @@ footer {
   width: 100%;
   padding: 0;
   color: #6e6e6e;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.2;
 }
 
@@ -136,12 +136,10 @@ footer .left {
   clear: both;
   width: 49%;
   height: 70px;
-  align-items: flex-end;
 }
 
 footer p,
-footer ul,
-footer ul li {
+footer ul {
   display: inline-flex;
   margin: 0;
 }
